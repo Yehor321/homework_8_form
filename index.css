@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -5,15 +12,22 @@
     outline: none;
 }
 body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     min-height: 100vh;
 }
 form {
     width: 655px;
     padding: 48px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 h1 {
     text-align: center;
@@ -45,12 +59,18 @@ h1 {
     resize: none;
 }
 .radios {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 24px;
 }
 .label_radio {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .label_radio input {
     width: 20px;
@@ -66,8 +86,12 @@ h1 {
     font-size: 14px;
 }
 .label_checkbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 20px;
 }
 .label_checkbox input {
@@ -81,6 +105,8 @@ h1 {
     font-size: 14px;
 }
 .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .submit {
