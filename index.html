@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Пример формы</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form name="myForm">
+        <h1>Registration</h1>
+        <label class="label_text">
+            <p>Name</p>
+            <input type="text" name="name" placeholder="Enter name">
+        </label> 
+
+        <label class="label_text">
+            <p>Email</p>
+            <input type="email" name="email" placeholder="Enter email">
+        </label>
+
+        <label class="label_text">
+            <p>Password</p>
+            <input type="password" name="password1" placeholder="Enter password">
+        </label>
+
+        <label class="label_text">
+            <p>Confirm Password</p>
+            <input type="Password" name="password2" placeholder="Confirm your password">
+        </label>
+
+        <div class="radios">
+            <label class="label_radio">
+                <input class="label_radio" type="radio" value="Male" name="gender">
+                <p>Male</p>
+            </label>
+    
+            <label class="label_radio">
+                <input class="label_radio" type="radio" value="Female" name="gender">
+                <p>Female</p>
+            </label>
+        </div>
+
+        <label class="label_text">
+            <p>Your biography</p>
+            <textarea rows="3"></textarea>
+        </label>
+
+        <div class="checkbox"> 
+            <label class="label_checkbox">
+                <input type="checkbox">
+                <p>I agree with Terms and Conditions</p>
+            </label>
+    
+            <label class="label_checkbox">
+                <input type="checkbox">
+                <p>Subscribe to our newsletter</p>
+            </label>
+        </div>
+
+        <div class="buttons">
+            <button class="submit">Submit</button>
+            <button class="reset">↻ Reset</button>
+        </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

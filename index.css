@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    outline: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+form {
+    width: 655px;
+    padding: 48px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    margin: 60px 0 60px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.label_text {
+    display: block;
+    background-color: rgb(234, 234, 234);
+    border-bottom: 1px solid gray;
+    margin-bottom: 24px;
+}
+.label_text p {
+    width: 100%;
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #0000008A;
+}
+.label_text input, textarea {
+    padding: 8px;
+    border: none;
+    background-color: rgb(234, 234, 234);
+    width: 559px;
+    resize: none;
+}
+.radios {
+    display: flex;
+    margin-bottom: 24px;
+}
+.label_radio {
+    display: flex;
+    align-items: center;
+}
+.label_radio input {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+.label_radio:first-child {
+    margin-right: 19px;
+}
+.label_radio p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.label_checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.label_checkbox input {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px; 
+}
+.label_checkbox p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.buttons {
+    display: flex;
+}
+.submit {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    width: 96px;
+    height: 36px;
+    background-color: #57BEBE;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    margin-right: 16px;
+}
+.reset {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    width: 96px;
+    height: 36px;
+    background-color: #291C44;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
